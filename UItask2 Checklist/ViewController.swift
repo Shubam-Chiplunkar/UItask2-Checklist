@@ -28,7 +28,7 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
         let datademo = GetTestData()
         datademo.getWebData()
         datademo.delegate = self
-        
+        print("Hello Wolf")
         print("ABC")
         }
     
